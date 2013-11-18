@@ -11,7 +11,18 @@
 class EtatRobot {
 public:
 	EtatRobot();
-	virtual ~EtatRobot();
+
+	virtual void avancer(int x, int y);
+	virtual void tourner(char direction);
+	virtual void rencontrerObstacle(Obstacle o);
+	virtual void evaluerObstacle();
+	virtual void saisir(Objet o);
+
+
+
+
+
+
 };
 
 #endif /* ETATROBOT_H_ */
