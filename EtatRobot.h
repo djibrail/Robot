@@ -17,6 +17,10 @@ public:
 	virtual void rencontrerObstacle(Obstacle o);
 	virtual void evaluerObstacle();
 	virtual void saisir(Objet o);
+	virtual int peser();
+	virtual void poser();
+	virtual void figer();
+	virtual void repartir();
 
 
 
