@@ -12,6 +12,12 @@ class EtatEnChargeFaceObstacle {
 public:
 	EtatEnChargeFaceObstacle();
 	virtual ~EtatEnChargeFaceObstacle();
+
+	void poser();
+	int peser();
+	void tourner(char);
+
+
 };
 
 #endif /* ETATENCHARGEFACEOBSTACLE_H_ */

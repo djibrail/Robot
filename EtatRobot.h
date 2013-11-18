@@ -11,12 +11,14 @@
 class EtatRobot {
 public:
 	EtatRobot();
+	virtual ~EtatRobot();
 
-	virtual void avancer(int x, int y);
-	virtual void tourner(char direction);
-	virtual void rencontrerObstacle(Obstacle o);
+
+	virtual void avancer(int , int );
+	virtual void tourner(char );
+	virtual void rencontrerObstacle(Obstacle );
 	virtual void evaluerObstacle();
-	virtual void saisir(Objet o);
+	virtual void saisir(Objet );
 	virtual int peser();
 	virtual void poser();
 	virtual void figer();

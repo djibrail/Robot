@@ -12,6 +12,12 @@ class EtatEnCharge {
 public:
 	EtatEnCharge();
 	virtual ~EtatEnCharge();
+
+
+	void tourner(char);
+	int peser();
+	void avancer(int, int);
+
 };
 
 #endif /* ETATENCHARGE_H_ */

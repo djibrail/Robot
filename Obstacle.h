@@ -12,6 +12,9 @@ class Obstacle {
 public:
 	Obstacle();
 	virtual ~Obstacle();
+
+
+
 };
 
 #endif /* OBSTACLE_H_ */

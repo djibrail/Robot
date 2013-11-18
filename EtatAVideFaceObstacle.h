@@ -12,6 +12,12 @@ class EtatAVideFaceObstacle {
 public:
 	EtatAVideFaceObstacle();
 	virtual ~EtatAVideFaceObstacle();
+
+
+	void saisir(Objet);
+	int evaluerObstacle();
+	void tourner(char);
+
 };
 
 #endif /* ETATAVIDEFACEOBSTACLE_H_ */
